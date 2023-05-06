@@ -22,6 +22,22 @@ class Card extends StatelessWidget {
                   backgroundImage: AssetImage('images/moein.jpg'),
                   radius: 50,
                 ),
+                const Text(
+                  'Moein Alkozay',
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.white,
+                    fontFamily: 'pacifico',
+                  ),
+                ),
+                const Text(
+                  'Node.js Developer ar Microcis',
+                  style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.white,
+                      fontFamily: 'pacifico',
+                      letterSpacing: 2),
+                ),
               ],
             ),
           ),
