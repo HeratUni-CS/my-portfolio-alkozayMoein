@@ -56,6 +56,24 @@ class Card extends StatelessWidget {
                     ],
                   ),
                 ),
+                Container(
+                  color: Colors.white,
+                  padding: const EdgeInsets.all(6),
+                  margin:
+                  const EdgeInsets.symmetric(vertical: 1, horizontal: 70),
+                  child: Row(
+                    children: const [
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text('moeinalkozay98@gmail.com')
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
